@@ -1,0 +1,12 @@
+
+TERMINAL ubuntu WSL
+fnm (manager de versiones de node.js)
+
+fnm list - lista las versiones de node instaladas
+
+fnm install 18.17.0 - instala la version 18.17.0 de node
+fnm alias 18.17.0 default - coloca la version como default
+
+NODE: entorno de ejecución de JavaScript
+
+node - ejecuta el REPL, permite ejecutar lineas de node/JS en la terminal
