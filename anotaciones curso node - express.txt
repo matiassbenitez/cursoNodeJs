@@ -10,3 +10,28 @@ fnm alias 18.17.0 default - coloca la version como default
 NODE: entorno de ejecución de JavaScript
 
 node - ejecuta el REPL, permite ejecutar lineas de node/JS en la terminal
+
+node index.js - ejecuta index.js
+
+window no está definido en node
+
+globalThis es la variable global para window, global, etc
+podremos acceder en cualquier momento y desde  cualquier lugar
+
+globalThis -> global (apunta a global en node)
+
+patrón de diseño en Módulos
+//CommonJS
+separar códigos en diferentes ficheros para reutilizar
+module.exports = <nombreFunction> (en el fichero de la funcion)
+
+const sum = require('./<nombreFuncion>')
+
+ó
+
+module.exports = {
+<nombreFunction> o función
+}
+
+const { sum } = require('./<nombreFuncion>')
+

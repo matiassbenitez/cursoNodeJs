@@ -1,0 +1,5 @@
+const sum = require('./sum')
+// globalThis.console.log('Hola mundo')
+// console.log('Hola mundo')
+// console.log(globalThis)
+console.log(sum(2,2))
