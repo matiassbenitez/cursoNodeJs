@@ -1,0 +1,27 @@
+{
+  "name": "curso-nodejs",
+  "version": "1.0.0",
+  "description": "Curso de Node-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiassbenitez/cursoNodeJs.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "tuchito"
+  ],
+  "author": "Matías Sebastián Benítez - Tuchito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiassbenitez/cursoNodeJs/issues"
+  },
+  "homepage": "https://github.com/matiassbenitez/cursoNodeJs#readme",
+  "dependencies": {
+    "picocolors": "1.1.1"
+  }
+}
