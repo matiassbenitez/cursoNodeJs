@@ -1,0 +1,8 @@
+Arquitectura REST
+
+Resources (Recursos) 
+Verbos HTTP (CRUD)
+Representaciones: JSON, XML, HTML, etc.
+Stateless: el servidor, sabiendo la url, sabe qué tiene que responder, sin necesidad de guardar ningún tipo de información para contestar la request
+Interfaz uniforme
+Separación de conceptos: permite que cliente y servidor evolucionen de forma separada
